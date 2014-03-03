@@ -7,7 +7,7 @@ Using StoryboardHelper's almost the same as [Lin-Xcode5](https://github.com/ques
 
 StoryboardHelper is inspired by [Lin-Xcode5](https://github.com/questbeat/Lin-Xcode5).
 
-If there is [Lin-Xcode5](https://github.com/questbeat/Lin-Xcode5), StoryboardHelper would not exist.
+If StoryboardHelper were not for [Lin-Xcode5](https://github.com/questbeat/Lin-Xcode5), would not exist.
 
 I have great respect for the [Katsuma Tanaka@questbeat](https://github.com/questbeat) that created the [Lin-Xcode5](https://github.com/questbeat/Lin-Xcode5).
 
