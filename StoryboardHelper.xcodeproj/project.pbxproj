@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF06B31518C234100015EBE6 /* IDEIndex+SBH.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B30E18C234100015EBE6 /* IDEIndex+SBH.m */; };
+		AF06B31618C234100015EBE6 /* IDEWorkspace+SBH.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B31018C234100015EBE6 /* IDEWorkspace+SBH.m */; };
+		AF06B31718C234100015EBE6 /* MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B31218C234100015EBE6 /* MethodSwizzle.m */; };
+		AF06B31818C234100015EBE6 /* NSBundle+versions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B31418C234100015EBE6 /* NSBundle+versions.m */; };
+		AF06B31B18C2342A0015EBE6 /* SBHUserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B31A18C2342A0015EBE6 /* SBHUserDefaultsManager.m */; };
+		AF06B31E18C2343A0015EBE6 /* SBHPopoverWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B31D18C2343A0015EBE6 /* SBHPopoverWindowController.m */; };
+		AF06B32D18C234600015EBE6 /* SBHDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B32018C234600015EBE6 /* SBHDetector.m */; };
+		AF06B32E18C234610015EBE6 /* SBHEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B32218C234600015EBE6 /* SBHEntity.m */; };
+		AF06B32F18C234610015EBE6 /* SBHRegularExpressionPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B32418C234600015EBE6 /* SBHRegularExpressionPattern.m */; };
+		AF06B33018C234610015EBE6 /* SBHRegularExpressionPattern+type.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B32618C234600015EBE6 /* SBHRegularExpressionPattern+type.m */; };
+		AF06B33118C234610015EBE6 /* SBHSegueElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B32818C234600015EBE6 /* SBHSegueElement.m */; };
+		AF06B33218C234610015EBE6 /* SBHStoryboardCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B32A18C234600015EBE6 /* SBHStoryboardCollection.m */; };
+		AF06B33318C234610015EBE6 /* SBHViewControllerElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B32C18C234600015EBE6 /* SBHViewControllerElement.m */; };
+		AF06B33618C234740015EBE6 /* StoryboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B33518C234740015EBE6 /* StoryboardHelper.m */; };
+		AF06B34918C2349F0015EBE6 /* SBHButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B33818C2349F0015EBE6 /* SBHButtonCell.m */; };
+		AF06B34A18C2349F0015EBE6 /* SBHHorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B33A18C2349F0015EBE6 /* SBHHorizontalLine.m */; };
+		AF06B34B18C2349F0015EBE6 /* SBHPopoverContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B33C18C2349F0015EBE6 /* SBHPopoverContentView.m */; };
+		AF06B34C18C2349F0015EBE6 /* SBHPopoverWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B33E18C2349F0015EBE6 /* SBHPopoverWindow.m */; };
+		AF06B34D18C2349F0015EBE6 /* SBHSegueElementPopoverContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B34018C2349F0015EBE6 /* SBHSegueElementPopoverContentView.m */; };
+		AF06B34E18C2349F0015EBE6 /* SBHTableCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B34218C2349F0015EBE6 /* SBHTableCornerView.m */; };
+		AF06B34F18C2349F0015EBE6 /* SBHTableHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B34418C2349F0015EBE6 /* SBHTableHeaderCell.m */; };
+		AF06B35018C2349F0015EBE6 /* SBHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B34618C2349F0015EBE6 /* SBHTableView.m */; };
+		AF06B35118C2349F0015EBE6 /* SBHViewControllerElementPopoverContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06B34818C2349F0015EBE6 /* SBHViewControllerElementPopoverContentView.m */; };
+		AF06B35718C234BF0015EBE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF06B35518C234BF0015EBE6 /* InfoPlist.strings */; };
+		AF06B35B18C234D00015EBE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF06B35818C234D00015EBE6 /* Images.xcassets */; };
+		AF06B35C18C234D00015EBE6 /* SBHSegueElementPopoverContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF06B35918C234D00015EBE6 /* SBHSegueElementPopoverContentView.xib */; };
+		AF06B35D18C234D00015EBE6 /* SBHViewControllerElementPopoverContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF06B35A18C234D00015EBE6 /* SBHViewControllerElementPopoverContentView.xib */; };
+		AFA9BF9C18B6EF11007225D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9BF9B18B6EF11007225D5 /* Cocoa.framework */; };
+		AFD346B318B6FCDF004F2EDB /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD346B118B6FCDF004F2EDB /* IDEFoundation.framework */; };
+		AFD346B418B6FCDF004F2EDB /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD346B218B6FCDF004F2EDB /* IDEKit.framework */; };
+		AFD346B718B6FCEF004F2EDB /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD346B518B6FCEF004F2EDB /* DVTFoundation.framework */; };
+		AFD346B818B6FCEF004F2EDB /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD346B618B6FCEF004F2EDB /* DVTKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF06B30418C233F00015EBE6 /* DVTDualProxyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTDualProxyWindow.h; path = StoryboardHelper/DVTDualProxyWindow.h; sourceTree = SOURCE_ROOT; };
+		AF06B30518C233F00015EBE6 /* DVTFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTFilePath.h; path = StoryboardHelper/DVTFilePath.h; sourceTree = SOURCE_ROOT; };
+		AF06B30618C233F00015EBE6 /* DVTSourceTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTSourceTextView.h; path = StoryboardHelper/DVTSourceTextView.h; sourceTree = SOURCE_ROOT; };
+		AF06B30718C233F00015EBE6 /* IDEEditorDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEEditorDocument.h; path = StoryboardHelper/IDEEditorDocument.h; sourceTree = SOURCE_ROOT; };
+		AF06B30818C233F00015EBE6 /* IDEIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEIndex.h; path = StoryboardHelper/IDEIndex.h; sourceTree = SOURCE_ROOT; };
+		AF06B30918C233F00015EBE6 /* IDEIndexCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEIndexCollection.h; path = StoryboardHelper/IDEIndexCollection.h; sourceTree = SOURCE_ROOT; };
+		AF06B30A18C233F00015EBE6 /* IDEWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEWorkspace.h; path = StoryboardHelper/IDEWorkspace.h; sourceTree = SOURCE_ROOT; };
+		AF06B30B18C233F00015EBE6 /* IDEWorkspaceWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEWorkspaceWindow.h; path = StoryboardHelper/IDEWorkspaceWindow.h; sourceTree = SOURCE_ROOT; };
+		AF06B30C18C233FA0015EBE6 /* NSPopoverFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSPopoverFrame.h; path = StoryboardHelper/NSPopoverFrame.h; sourceTree = SOURCE_ROOT; };
+		AF06B30D18C234100015EBE6 /* IDEIndex+SBH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IDEIndex+SBH.h"; path = "StoryboardHelper/IDEIndex+SBH.h"; sourceTree = SOURCE_ROOT; };
+		AF06B30E18C234100015EBE6 /* IDEIndex+SBH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IDEIndex+SBH.m"; path = "StoryboardHelper/IDEIndex+SBH.m"; sourceTree = SOURCE_ROOT; };
+		AF06B30F18C234100015EBE6 /* IDEWorkspace+SBH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IDEWorkspace+SBH.h"; path = "StoryboardHelper/IDEWorkspace+SBH.h"; sourceTree = SOURCE_ROOT; };
+		AF06B31018C234100015EBE6 /* IDEWorkspace+SBH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IDEWorkspace+SBH.m"; path = "StoryboardHelper/IDEWorkspace+SBH.m"; sourceTree = SOURCE_ROOT; };
+		AF06B31118C234100015EBE6 /* MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodSwizzle.h; path = StoryboardHelper/MethodSwizzle.h; sourceTree = SOURCE_ROOT; };
+		AF06B31218C234100015EBE6 /* MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodSwizzle.m; path = StoryboardHelper/MethodSwizzle.m; sourceTree = SOURCE_ROOT; };
+		AF06B31318C234100015EBE6 /* NSBundle+versions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+versions.h"; path = "StoryboardHelper/NSBundle+versions.h"; sourceTree = SOURCE_ROOT; };
+		AF06B31418C234100015EBE6 /* NSBundle+versions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+versions.m"; path = "StoryboardHelper/NSBundle+versions.m"; sourceTree = SOURCE_ROOT; };
+		AF06B31918C2342A0015EBE6 /* SBHUserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHUserDefaultsManager.h; path = StoryboardHelper/SBHUserDefaultsManager.h; sourceTree = SOURCE_ROOT; };
+		AF06B31A18C2342A0015EBE6 /* SBHUserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHUserDefaultsManager.m; path = StoryboardHelper/SBHUserDefaultsManager.m; sourceTree = SOURCE_ROOT; };
+		AF06B31C18C2343A0015EBE6 /* SBHPopoverWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHPopoverWindowController.h; path = StoryboardHelper/SBHPopoverWindowController.h; sourceTree = SOURCE_ROOT; };
+		AF06B31D18C2343A0015EBE6 /* SBHPopoverWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHPopoverWindowController.m; path = StoryboardHelper/SBHPopoverWindowController.m; sourceTree = SOURCE_ROOT; };
+		AF06B31F18C234600015EBE6 /* SBHDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHDetector.h; path = StoryboardHelper/SBHDetector.h; sourceTree = SOURCE_ROOT; };
+		AF06B32018C234600015EBE6 /* SBHDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHDetector.m; path = StoryboardHelper/SBHDetector.m; sourceTree = SOURCE_ROOT; };
+		AF06B32118C234600015EBE6 /* SBHEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHEntity.h; path = StoryboardHelper/SBHEntity.h; sourceTree = SOURCE_ROOT; };
+		AF06B32218C234600015EBE6 /* SBHEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHEntity.m; path = StoryboardHelper/SBHEntity.m; sourceTree = SOURCE_ROOT; };
+		AF06B32318C234600015EBE6 /* SBHRegularExpressionPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHRegularExpressionPattern.h; path = StoryboardHelper/SBHRegularExpressionPattern.h; sourceTree = SOURCE_ROOT; };
+		AF06B32418C234600015EBE6 /* SBHRegularExpressionPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHRegularExpressionPattern.m; path = StoryboardHelper/SBHRegularExpressionPattern.m; sourceTree = SOURCE_ROOT; };
+		AF06B32518C234600015EBE6 /* SBHRegularExpressionPattern+type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SBHRegularExpressionPattern+type.h"; path = "StoryboardHelper/SBHRegularExpressionPattern+type.h"; sourceTree = SOURCE_ROOT; };
+		AF06B32618C234600015EBE6 /* SBHRegularExpressionPattern+type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SBHRegularExpressionPattern+type.m"; path = "StoryboardHelper/SBHRegularExpressionPattern+type.m"; sourceTree = SOURCE_ROOT; };
+		AF06B32718C234600015EBE6 /* SBHSegueElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHSegueElement.h; path = StoryboardHelper/SBHSegueElement.h; sourceTree = SOURCE_ROOT; };
+		AF06B32818C234600015EBE6 /* SBHSegueElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHSegueElement.m; path = StoryboardHelper/SBHSegueElement.m; sourceTree = SOURCE_ROOT; };
+		AF06B32918C234600015EBE6 /* SBHStoryboardCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHStoryboardCollection.h; path = StoryboardHelper/SBHStoryboardCollection.h; sourceTree = SOURCE_ROOT; };
+		AF06B32A18C234600015EBE6 /* SBHStoryboardCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHStoryboardCollection.m; path = StoryboardHelper/SBHStoryboardCollection.m; sourceTree = SOURCE_ROOT; };
+		AF06B32B18C234600015EBE6 /* SBHViewControllerElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHViewControllerElement.h; path = StoryboardHelper/SBHViewControllerElement.h; sourceTree = SOURCE_ROOT; };
+		AF06B32C18C234600015EBE6 /* SBHViewControllerElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHViewControllerElement.m; path = StoryboardHelper/SBHViewControllerElement.m; sourceTree = SOURCE_ROOT; };
+		AF06B33418C234740015EBE6 /* StoryboardHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryboardHelper.h; path = StoryboardHelper/StoryboardHelper.h; sourceTree = SOURCE_ROOT; };
+		AF06B33518C234740015EBE6 /* StoryboardHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryboardHelper.m; path = StoryboardHelper/StoryboardHelper.m; sourceTree = SOURCE_ROOT; };
+		AF06B33718C2349F0015EBE6 /* SBHButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHButtonCell.h; path = StoryboardHelper/SBHButtonCell.h; sourceTree = SOURCE_ROOT; };
+		AF06B33818C2349F0015EBE6 /* SBHButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHButtonCell.m; path = StoryboardHelper/SBHButtonCell.m; sourceTree = SOURCE_ROOT; };
+		AF06B33918C2349F0015EBE6 /* SBHHorizontalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHHorizontalLine.h; path = StoryboardHelper/SBHHorizontalLine.h; sourceTree = SOURCE_ROOT; };
+		AF06B33A18C2349F0015EBE6 /* SBHHorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHHorizontalLine.m; path = StoryboardHelper/SBHHorizontalLine.m; sourceTree = SOURCE_ROOT; };
+		AF06B33B18C2349F0015EBE6 /* SBHPopoverContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHPopoverContentView.h; path = StoryboardHelper/SBHPopoverContentView.h; sourceTree = SOURCE_ROOT; };
+		AF06B33C18C2349F0015EBE6 /* SBHPopoverContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHPopoverContentView.m; path = StoryboardHelper/SBHPopoverContentView.m; sourceTree = SOURCE_ROOT; };
+		AF06B33D18C2349F0015EBE6 /* SBHPopoverWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHPopoverWindow.h; path = StoryboardHelper/SBHPopoverWindow.h; sourceTree = SOURCE_ROOT; };
+		AF06B33E18C2349F0015EBE6 /* SBHPopoverWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHPopoverWindow.m; path = StoryboardHelper/SBHPopoverWindow.m; sourceTree = SOURCE_ROOT; };
+		AF06B33F18C2349F0015EBE6 /* SBHSegueElementPopoverContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHSegueElementPopoverContentView.h; path = StoryboardHelper/SBHSegueElementPopoverContentView.h; sourceTree = SOURCE_ROOT; };
+		AF06B34018C2349F0015EBE6 /* SBHSegueElementPopoverContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHSegueElementPopoverContentView.m; path = StoryboardHelper/SBHSegueElementPopoverContentView.m; sourceTree = SOURCE_ROOT; };
+		AF06B34118C2349F0015EBE6 /* SBHTableCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHTableCornerView.h; path = StoryboardHelper/SBHTableCornerView.h; sourceTree = SOURCE_ROOT; };
+		AF06B34218C2349F0015EBE6 /* SBHTableCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHTableCornerView.m; path = StoryboardHelper/SBHTableCornerView.m; sourceTree = SOURCE_ROOT; };
+		AF06B34318C2349F0015EBE6 /* SBHTableHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHTableHeaderCell.h; path = StoryboardHelper/SBHTableHeaderCell.h; sourceTree = SOURCE_ROOT; };
+		AF06B34418C2349F0015EBE6 /* SBHTableHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHTableHeaderCell.m; path = StoryboardHelper/SBHTableHeaderCell.m; sourceTree = SOURCE_ROOT; };
+		AF06B34518C2349F0015EBE6 /* SBHTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHTableView.h; path = StoryboardHelper/SBHTableView.h; sourceTree = SOURCE_ROOT; };
+		AF06B34618C2349F0015EBE6 /* SBHTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHTableView.m; path = StoryboardHelper/SBHTableView.m; sourceTree = SOURCE_ROOT; };
+		AF06B34718C2349F0015EBE6 /* SBHViewControllerElementPopoverContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBHViewControllerElementPopoverContentView.h; path = StoryboardHelper/SBHViewControllerElementPopoverContentView.h; sourceTree = SOURCE_ROOT; };
+		AF06B34818C2349F0015EBE6 /* SBHViewControllerElementPopoverContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBHViewControllerElementPopoverContentView.m; path = StoryboardHelper/SBHViewControllerElementPopoverContentView.m; sourceTree = SOURCE_ROOT; };
+		AF06B35218C234AD0015EBE6 /* StoryboardHelper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "StoryboardHelper-Info.plist"; path = "StoryboardHelper/StoryboardHelper-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AF06B35318C234AD0015EBE6 /* StoryboardHelper-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "StoryboardHelper-Prefix.pch"; path = "StoryboardHelper/StoryboardHelper-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		AF06B35618C234BF0015EBE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = StoryboardHelper/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		AF06B35818C234D00015EBE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StoryboardHelper/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		AF06B35918C234D00015EBE6 /* SBHSegueElementPopoverContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SBHSegueElementPopoverContentView.xib; path = StoryboardHelper/SBHSegueElementPopoverContentView.xib; sourceTree = SOURCE_ROOT; };
+		AF06B35A18C234D00015EBE6 /* SBHViewControllerElementPopoverContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SBHViewControllerElementPopoverContentView.xib; path = StoryboardHelper/SBHViewControllerElementPopoverContentView.xib; sourceTree = SOURCE_ROOT; };
+		AFA9BF9818B6EF11007225D5 /* StoryboardHelper.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardHelper.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA9BF9B18B6EF11007225D5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AFA9BF9E18B6EF11007225D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFA9BF9F18B6EF11007225D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AFA9BFA018B6EF11007225D5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AFD346B118B6FCDF004F2EDB /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
+		AFD346B218B6FCDF004F2EDB /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		AFD346B518B6FCEF004F2EDB /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		AFD346B618B6FCEF004F2EDB /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFA9BF9518B6EF11007225D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD346B718B6FCEF004F2EDB /* DVTFoundation.framework in Frameworks */,
+				AFD346B318B6FCDF004F2EDB /* IDEFoundation.framework in Frameworks */,
+				AFD346B818B6FCEF004F2EDB /* DVTKit.framework in Frameworks */,
+				AFD346B418B6FCDF004F2EDB /* IDEKit.framework in Frameworks */,
+				AFA9BF9C18B6EF11007225D5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFA9BF8F18B6EF11007225D5 = {
+			isa = PBXGroup;
+			children = (
+				AFA9BFA118B6EF11007225D5 /* StoryboardHelper */,
+				AFA9BF9A18B6EF11007225D5 /* Frameworks */,
+				AFA9BF9918B6EF11007225D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFA9BF9918B6EF11007225D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFA9BF9818B6EF11007225D5 /* StoryboardHelper.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFA9BF9A18B6EF11007225D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFD346B518B6FCEF004F2EDB /* DVTFoundation.framework */,
+				AFD346B618B6FCEF004F2EDB /* DVTKit.framework */,
+				AFD346B118B6FCDF004F2EDB /* IDEFoundation.framework */,
+				AFD346B218B6FCDF004F2EDB /* IDEKit.framework */,
+				AFA9BF9B18B6EF11007225D5 /* Cocoa.framework */,
+				AFA9BF9D18B6EF11007225D5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFA9BF9D18B6EF11007225D5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA9BF9E18B6EF11007225D5 /* Foundation.framework */,
+				AFA9BF9F18B6EF11007225D5 /* CoreData.framework */,
+				AFA9BFA018B6EF11007225D5 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AFA9BFA118B6EF11007225D5 /* StoryboardHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AFD3469318B6F692004F2EDB /* Xcode-Private-Classes */,
+				AFD3469C18B6F6AB004F2EDB /* AppKit-Private-Classes */,
+				AFA9BFAD18B6F03C007225D5 /* Classes */,
+				AF06B33418C234740015EBE6 /* StoryboardHelper.h */,
+				AF06B33518C234740015EBE6 /* StoryboardHelper.m */,
+				AFA9BFAE18B6F050007225D5 /* Resources */,
+				AFA9BFA218B6EF11007225D5 /* Supporting Files */,
+			);
+			name = StoryboardHelper;
+			path = StoryboardIdentifierHelper;
+			sourceTree = "<group>";
+		};
+		AFA9BFA218B6EF11007225D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF06B35218C234AD0015EBE6 /* StoryboardHelper-Info.plist */,
+				AF06B35518C234BF0015EBE6 /* InfoPlist.strings */,
+				AF06B35318C234AD0015EBE6 /* StoryboardHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFA9BFAD18B6F03C007225D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFD346BD18B70A36004F2EDB /* Models */,
+				AFD3469E18B6F6CD004F2EDB /* Categories */,
+				AFD346B918B6FDB8004F2EDB /* Shared */,
+				AFC6D45C18B715DB00EF3E41 /* Controllers */,
+				AFC6D44318B7146D00EF3E41 /* Views */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		AFA9BFAE18B6F050007225D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF06B35818C234D00015EBE6 /* Images.xcassets */,
+				AF06B35918C234D00015EBE6 /* SBHSegueElementPopoverContentView.xib */,
+				AF06B35A18C234D00015EBE6 /* SBHViewControllerElementPopoverContentView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AFC6D44318B7146D00EF3E41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF06B33718C2349F0015EBE6 /* SBHButtonCell.h */,
+				AF06B33818C2349F0015EBE6 /* SBHButtonCell.m */,
+				AF06B33918C2349F0015EBE6 /* SBHHorizontalLine.h */,
+				AF06B33A18C2349F0015EBE6 /* SBHHorizontalLine.m */,
+				AF06B33B18C2349F0015EBE6 /* SBHPopoverContentView.h */,
+				AF06B33C18C2349F0015EBE6 /* SBHPopoverContentView.m */,
+				AF06B33D18C2349F0015EBE6 /* SBHPopoverWindow.h */,
+				AF06B33E18C2349F0015EBE6 /* SBHPopoverWindow.m */,
+				AF06B33F18C2349F0015EBE6 /* SBHSegueElementPopoverContentView.h */,
+				AF06B34018C2349F0015EBE6 /* SBHSegueElementPopoverContentView.m */,
+				AF06B34118C2349F0015EBE6 /* SBHTableCornerView.h */,
+				AF06B34218C2349F0015EBE6 /* SBHTableCornerView.m */,
+				AF06B34318C2349F0015EBE6 /* SBHTableHeaderCell.h */,
+				AF06B34418C2349F0015EBE6 /* SBHTableHeaderCell.m */,
+				AF06B34518C2349F0015EBE6 /* SBHTableView.h */,
+				AF06B34618C2349F0015EBE6 /* SBHTableView.m */,
+				AF06B34718C2349F0015EBE6 /* SBHViewControllerElementPopoverContentView.h */,
+				AF06B34818C2349F0015EBE6 /* SBHViewControllerElementPopoverContentView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AFC6D45C18B715DB00EF3E41 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF06B31C18C2343A0015EBE6 /* SBHPopoverWindowController.h */,
+				AF06B31D18C2343A0015EBE6 /* SBHPopoverWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AFD3469318B6F692004F2EDB /* Xcode-Private-Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF06B30418C233F00015EBE6 /* DVTDualProxyWindow.h */,
+				AF06B30518C233F00015EBE6 /* DVTFilePath.h */,
+				AF06B30618C233F00015EBE6 /* DVTSourceTextView.h */,
+				AF06B30718C233F00015EBE6 /* IDEEditorDocument.h */,
+				AF06B30818C233F00015EBE6 /* IDEIndex.h */,
+				AF06B30918C233F00015EBE6 /* IDEIndexCollection.h */,
+				AF06B30A18C233F00015EBE6 /* IDEWorkspace.h */,
+				AF06B30B18C233F00015EBE6 /* IDEWorkspaceWindow.h */,
+			);
+			name = "Xcode-Private-Classes";
+			sourceTree = "<group>";
+		};
+		AFD3469C18B6F6AB004F2EDB /* AppKit-Private-Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF06B30C18C233FA0015EBE6 /* NSPopoverFrame.h */,
+			);
+			name = "AppKit-Private-Classes";
+			sourceTree = "<group>";
+		};
+		AFD3469E18B6F6CD004F2EDB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AF06B30D18C234100015EBE6 /* IDEIndex+SBH.h */,
+				AF06B30E18C234100015EBE6 /* IDEIndex+SBH.m */,
+				AF06B30F18C234100015EBE6 /* IDEWorkspace+SBH.h */,
+				AF06B31018C234100015EBE6 /* IDEWorkspace+SBH.m */,
+				AF06B31118C234100015EBE6 /* MethodSwizzle.h */,
+				AF06B31218C234100015EBE6 /* MethodSwizzle.m */,
+				AF06B31318C234100015EBE6 /* NSBundle+versions.h */,
+				AF06B31418C234100015EBE6 /* NSBundle+versions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		AFD346B918B6FDB8004F2EDB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AF06B31918C2342A0015EBE6 /* SBHUserDefaultsManager.h */,
+				AF06B31A18C2342A0015EBE6 /* SBHUserDefaultsManager.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		AFD346BD18B70A36004F2EDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF06B31F18C234600015EBE6 /* SBHDetector.h */,
+				AF06B32018C234600015EBE6 /* SBHDetector.m */,
+				AF06B32118C234600015EBE6 /* SBHEntity.h */,
+				AF06B32218C234600015EBE6 /* SBHEntity.m */,
+				AF06B32318C234600015EBE6 /* SBHRegularExpressionPattern.h */,
+				AF06B32418C234600015EBE6 /* SBHRegularExpressionPattern.m */,
+				AF06B32518C234600015EBE6 /* SBHRegularExpressionPattern+type.h */,
+				AF06B32618C234600015EBE6 /* SBHRegularExpressionPattern+type.m */,
+				AF06B32718C234600015EBE6 /* SBHSegueElement.h */,
+				AF06B32818C234600015EBE6 /* SBHSegueElement.m */,
+				AF06B32918C234600015EBE6 /* SBHStoryboardCollection.h */,
+				AF06B32A18C234600015EBE6 /* SBHStoryboardCollection.m */,
+				AF06B32B18C234600015EBE6 /* SBHViewControllerElement.h */,
+				AF06B32C18C234600015EBE6 /* SBHViewControllerElement.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFA9BF9718B6EF11007225D5 /* StoryboardHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA9BFAA18B6EF11007225D5 /* Build configuration list for PBXNativeTarget "StoryboardHelper" */;
+			buildPhases = (
+				AFA9BF9418B6EF11007225D5 /* Sources */,
+				AFA9BF9518B6EF11007225D5 /* Frameworks */,
+				AFA9BF9618B6EF11007225D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryboardHelper;
+			productName = StoryboardIdentifierHelper;
+			productReference = AFA9BF9818B6EF11007225D5 /* StoryboardHelper.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFA9BF9018B6EF11007225D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = hirai.yuki;
+			};
+			buildConfigurationList = AFA9BF9318B6EF11007225D5 /* Build configuration list for PBXProject "StoryboardHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFA9BF8F18B6EF11007225D5;
+			productRefGroup = AFA9BF9918B6EF11007225D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFA9BF9718B6EF11007225D5 /* StoryboardHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFA9BF9618B6EF11007225D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF06B35B18C234D00015EBE6 /* Images.xcassets in Resources */,
+				AF06B35D18C234D00015EBE6 /* SBHViewControllerElementPopoverContentView.xib in Resources */,
+				AF06B35C18C234D00015EBE6 /* SBHSegueElementPopoverContentView.xib in Resources */,
+				AF06B35718C234BF0015EBE6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFA9BF9418B6EF11007225D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF06B32F18C234610015EBE6 /* SBHRegularExpressionPattern.m in Sources */,
+				AF06B31618C234100015EBE6 /* IDEWorkspace+SBH.m in Sources */,
+				AF06B32E18C234610015EBE6 /* SBHEntity.m in Sources */,
+				AF06B32D18C234600015EBE6 /* SBHDetector.m in Sources */,
+				AF06B35018C2349F0015EBE6 /* SBHTableView.m in Sources */,
+				AF06B34A18C2349F0015EBE6 /* SBHHorizontalLine.m in Sources */,
+				AF06B31718C234100015EBE6 /* MethodSwizzle.m in Sources */,
+				AF06B33018C234610015EBE6 /* SBHRegularExpressionPattern+type.m in Sources */,
+				AF06B31B18C2342A0015EBE6 /* SBHUserDefaultsManager.m in Sources */,
+				AF06B31E18C2343A0015EBE6 /* SBHPopoverWindowController.m in Sources */,
+				AF06B33618C234740015EBE6 /* StoryboardHelper.m in Sources */,
+				AF06B34F18C2349F0015EBE6 /* SBHTableHeaderCell.m in Sources */,
+				AF06B31518C234100015EBE6 /* IDEIndex+SBH.m in Sources */,
+				AF06B33318C234610015EBE6 /* SBHViewControllerElement.m in Sources */,
+				AF06B34918C2349F0015EBE6 /* SBHButtonCell.m in Sources */,
+				AF06B31818C234100015EBE6 /* NSBundle+versions.m in Sources */,
+				AF06B35118C2349F0015EBE6 /* SBHViewControllerElementPopoverContentView.m in Sources */,
+				AF06B34C18C2349F0015EBE6 /* SBHPopoverWindow.m in Sources */,
+				AF06B34E18C2349F0015EBE6 /* SBHTableCornerView.m in Sources */,
+				AF06B33118C234610015EBE6 /* SBHSegueElement.m in Sources */,
+				AF06B33218C234610015EBE6 /* SBHStoryboardCollection.m in Sources */,
+				AF06B34B18C2349F0015EBE6 /* SBHPopoverContentView.m in Sources */,
+				AF06B34D18C2349F0015EBE6 /* SBHSegueElementPopoverContentView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF06B35518C234BF0015EBE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF06B35618C234BF0015EBE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFA9BFA818B6EF11007225D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFA9BFA918B6EF11007225D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFA9BFAB18B6EF11007225D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardHelper/StoryboardHelper-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardHelper/StoryboardHelper-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = StoryboardHelper;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		AFA9BFAC18B6EF11007225D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardHelper/StoryboardHelper-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardHelper/StoryboardHelper-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = StoryboardHelper;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFA9BF9318B6EF11007225D5 /* Build configuration list for PBXProject "StoryboardHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA9BFA818B6EF11007225D5 /* Debug */,
+				AFA9BFA918B6EF11007225D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA9BFAA18B6EF11007225D5 /* Build configuration list for PBXNativeTarget "StoryboardHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA9BFAB18B6EF11007225D5 /* Debug */,
+				AFA9BFAC18B6EF11007225D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFA9BF9018B6EF11007225D5 /* Project object */;
+}
