@@ -49,6 +49,7 @@ static NSString * const SBHStoryboardCollectionSegueIdAttributeName = @"id";
 static NSString * const SBHStoryboardCollectionSegueKindPush = @"push";
 static NSString * const SBHStoryboardCollectionSegueKindModal = @"modal";
 static NSString * const SBHStoryboardCollectionSegueKindCustom = @"custom";
+static NSString * const SBHStoryboardCollectionSegueKindUnwind = @"unwind";
 
 
 @interface SBHStoryboardCollection () <NSXMLParserDelegate>
@@ -114,6 +115,7 @@ static NSString * const SBHStoryboardCollectionSegueKindCustom = @"custom";
                         SBHStoryboardCollectionSegueKindPush,
                         SBHStoryboardCollectionSegueKindModal,
                         SBHStoryboardCollectionSegueKindCustom,
+                        SBHStoryboardCollectionSegueKindUnwind,
                         ];
     }
     
@@ -230,6 +232,8 @@ didStartElement:(NSString *)elementName
         kind = SBHSegueElementKindModal;
     } else if ([kindValue isEqualToString:SBHStoryboardCollectionSegueKindCustom]) {
         kind = SBHSegueElementKindCustom;
+    } else if ([kindValue isEqualToString:SBHStoryboardCollectionSegueKindUnwind]) {
+        kind = SBHSegueElementKindUnwind;
     } else {
         kind = SBHSegueElementKindUnknown;
     }

@@ -107,7 +107,10 @@
         case SBHSegueElementKindCustom:
             kindToString = @"Custom";
             break;
-        default:
+        case SBHSegueElementKindUnwind:
+            kindToString = @"Unwind";
+            break;
+        case SBHSegueElementKindUnknown:
             kindToString = nil;
             break;
     }

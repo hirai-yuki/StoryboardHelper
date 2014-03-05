@@ -93,7 +93,7 @@
         case SBHViewControllerElementTypeGLKViewController:
             typeToString = @"GLKit View Controller";
             break;
-        default:
+        case SBHViewControllerElementTypeUnknown:
             typeToString = nil;
             break;
     }

@@ -21,6 +21,7 @@ typedef NS_ENUM(NSUInteger, SBHSegueElementKind) {
     SBHSegueElementKindPush,
     SBHSegueElementKindModal,
     SBHSegueElementKindCustom,
+    SBHSegueElementKindUnwind,
 };
 
 
