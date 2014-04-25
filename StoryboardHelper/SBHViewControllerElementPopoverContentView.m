@@ -30,8 +30,6 @@ NSString * const SBHViewControllerElementPopoverContentViewDetachButtonDidClickN
 
 @interface SBHViewControllerElementPopoverContentView ()
 
-@property (nonatomic, weak, readwrite) IBOutlet NSButton *detachButton;
-
 - (IBAction)detachPopover:(id)sender;
 
 @end

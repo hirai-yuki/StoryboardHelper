@@ -32,8 +32,6 @@ NSString * const SBHSegueElementPopoverContentViewDetachButtonDidClickNotificati
 
 @interface SBHSegueElementPopoverContentView ()
 
-@property (nonatomic, weak, readwrite) IBOutlet NSButton *detachButton;
-
 - (IBAction)detachPopover:(id)sender;
 
 @end

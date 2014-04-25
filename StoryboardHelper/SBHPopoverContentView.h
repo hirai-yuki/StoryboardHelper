@@ -19,7 +19,7 @@
 @interface SBHPopoverContentView : NSView <NSTableViewDataSource, NSTableViewDelegate>
 
 @property (nonatomic, weak, readwrite) IBOutlet NSTableView *tableView;
-@property (nonatomic, weak, readonly) NSButton *detachButton;
+@property (nonatomic, weak, readwrite) NSButton *detachButton;
 @property (nonatomic, copy) NSArray *collections;
 @property (nonatomic, copy) NSString *searchString;
 
